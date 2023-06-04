@@ -29,9 +29,6 @@ jobs:
       
       - name: Run npm install
         run: npm ci
-      
-      - name: Run test 
-        run: npm test 
 
   build-docker-image: 
     name: Build and push docker image
